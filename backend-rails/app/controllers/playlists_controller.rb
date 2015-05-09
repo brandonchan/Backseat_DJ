@@ -36,7 +36,7 @@ Dotenv.load
     david = Soundcloud.new(:access_token => access_token.access_token)
     current_user = david.get('/me')
     # current_user = SoundCloud.new(:access_token => access_token).get('/me')
-    # puts current_user.full_name
+    puts current_user.full_name
     # p access_token
     # call here to sound cloud with code to get his info as another params
     # redirect_to 'https://soundcloud.com/connect'
